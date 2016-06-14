@@ -2,11 +2,9 @@
 
 usage:
 
-swot new <name>
-swot save
-swot open <name>
-swot rm <name>
 
+swot new <name>
 swot <name>
-swot <name> title <title>
-swot <name> <add/rm> <str/weak/opp/thr> <text>
+swot rm <name>
+swot list [query]
+swot <name> <'add'/'rm'> <'str'/'weak'/'opp'/'thr'> <text>
